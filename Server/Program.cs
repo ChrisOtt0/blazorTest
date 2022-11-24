@@ -1,5 +1,5 @@
+global using blazorTest.Shared;
 using Microsoft.AspNetCore.ResponseCompression;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

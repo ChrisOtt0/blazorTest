@@ -27,6 +27,7 @@ namespace blazorTest.Server.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<SuperHero>> GetSuperHero(int id)
         {
+            /* Returning the first hero that matches the id. */
             return Ok(heroes.FirstOrDefault(x => x.Id == id));
         }
     }
